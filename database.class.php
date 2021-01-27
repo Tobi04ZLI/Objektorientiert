@@ -1,6 +1,6 @@
 <?php
 
-require_once('curd.php');
+require_once('crud.php');
 require_once('crudoop.php');
 
 /**
@@ -56,7 +56,7 @@ class Database
     {
         try {
             $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database, $this->port);
-        } catch (Exception $e) {
+        } catch (Exception $ex) {
             echo "FAIL! ",  $ex->getMessage() . PHP_EOL;
         }
     }
