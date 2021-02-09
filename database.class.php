@@ -1,7 +1,7 @@
 <?php
 
-require_once('crud.php');
-require_once('crudoop.php');
+require_once 'crud.php';
+require_once 'crudoop.php';
 
 /**
  * Simple MySQLi Database class for PHP7.

@@ -1,7 +1,8 @@
 <?php
 
-require_once('includes/database.class.php');
-require_once('includes/crud.php');
+require_once 'database.class.php';
+require_once 'crud.php';
+
 
 /**
  * Generate an entity object that provide CRUD operation for a database table.
